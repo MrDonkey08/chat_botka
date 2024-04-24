@@ -9,6 +9,32 @@ templater
 *Untitled*
 *untitled*
 
+### Rasa ###
+
+# Ignore Rasa training files
+/data/
+/models/
+
+# Ignore Rasa logs
+/logs/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore development and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
 ### Archivers & Compressors ###
 
 # Archivers
