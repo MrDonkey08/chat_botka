@@ -1,0 +1,84 @@
+version: "3.1"
+
+nlu:
+  - intent: saludar
+    examples: |
+      - hola
+      - hola que tal
+      - que onda
+      - buenos dias
+      - buen dia
+      - buenas tardes
+      - bonita tarde
+      - buenas noches
+      - bonita noche
+
+  - intent: despedir
+    examples: |
+      - adios
+      - bye
+      - hasta luego
+      - te veo luego
+      - hasta pronto
+      - buenas noches
+      - bonito dia
+
+  - intent: afirmar
+    examples: |
+      - si
+      - claro
+      - claro que si
+      - por supuesto
+      - de acuerdo
+      - correcto
+      - es correcto
+      - ok
+      - esta bien
+      - confirmo
+      - me parece bien
+      - yes
+      - y
+
+  - intent: negar
+    examples: |
+      - no
+      - n
+      - nunca
+      - jamas
+      - negativo
+      - no creo
+      - no lo creo
+
+  - intent: estado_feliz
+    examples: |
+      - feliz
+      - contento
+      - alegre
+      - bien
+      - perfecto
+      - genial
+      - grandioso
+      - increible
+      - magnifico
+      - asombroso
+      - excelente
+
+  - intent: estado_infeliz
+    examples: |
+      - triste
+      - mal
+      - no me siento bien
+      - mi dia fue horrible
+      - estoy decepcionado
+      - decepcionado
+      - infeliz
+      - nada bien
+
+  - intent: bot_challenge
+    examples: |
+      - eres un robot?
+      - eres un humano?
+      - eres un persona?
+      - estoy hablando con un robot?
+      - estoy hablando con una humano?
+      - estoy hablando con una persona?

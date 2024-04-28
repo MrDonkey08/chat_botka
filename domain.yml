@@ -1,33 +1,33 @@
 version: "3.1"
 
 intents:
-  - saludo
-  - despedida
-  - afirmación
-  - negación
-  - estado_bien
-  - estado_mal
+  - saludar
+  - despedir
+  - afirmar
+  - negar
+  - estado_feliz
+  - estado_infeliz
   - bot_challenge
 
 responses:
-  utter_saludo:
-  - text: "¡Hola! ¿Cómo estás?"
+  utter_saludar:
+    - text: "¡Hola! ¿Cómo estás?"
 
-  utter_alegrar:
-  - text: "Aquí hay algo que te puede hacer sentir mejor:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_animar:
+    - text: "Aquí hay algo que te puede hacer sentir mejor:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_ayudó:
-  - text: "¿Ayudó en algó?"
+    - text: "¿Ayudó en algó?"
 
   utter_feliz:
-  - text: "¡Qué bueno! Cuídate mucho"
+    - text: "¡Qué bueno! ¡Me alegra que te encuentres bien!"
 
-  utter_adios:
-  - text: "¡Adiós, bonito día! ¡Nos vemos pronto!"
+  utter_despedir:
+    - text: "¡Adiós, bonito día! ¡Nos vemos pronto!"
 
   utter_soy_robot:
-  - text: "Soy un robot diseñado con Rasa."
+    - text: "Soy un robot diseñado con Rasa."
 
 session_config:
   session_expiration_time: 60

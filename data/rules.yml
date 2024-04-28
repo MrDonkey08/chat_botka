@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: Decir "adios, bonito día" cuando el usuario se despida
+    steps:
+      - intent: despedir
+      - action: utter_despedir
+
+  - rule: Decir "soy un robot" cuando el usuario lo desafie
+    steps:
+      - intent: bot_challenge
+      - action: utter_soy_robot
