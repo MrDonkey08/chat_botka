@@ -10,10 +10,7 @@ templater
 *untitled*
 
 ### Rasa ###
-
-# Ignore Rasa training files
-/data/
-/models/
+.rasa/cache/
 
 # Ignore Rasa logs
 /logs/
