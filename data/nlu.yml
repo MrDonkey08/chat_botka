@@ -82,3 +82,76 @@ nlu:
       - estoy hablando con un robot?
       - estoy hablando con una humano?
       - estoy hablando con una persona?
+
+  - intent: solicitar_menu
+    examples: |
+      - me gustaria ordenar
+      - que bebidas tiene
+      - que bebidas maneja
+      - tienes alguna carta
+      - tines algun menu
+      - me puedes dar una carta
+      - me puedes dar un menu
+
+  - intent: ordenar_mojito
+    examples: |
+      - me das un mojito
+      - me sirves un mojito
+      - un mojito
+      - un mojito, por favor
+
+  - intent: ordenar_michelada
+    examples: |
+      - me das un michelada
+      - me sirves un michelada
+      - un michelada
+      - un michelada, por favor
+
+  - intent: ordenar_clamato
+    examples: |
+      - me das un clamato
+      - me sirves un clamato
+      - un clamato
+      - un clamato, por favor
+
+  - intent: ordenar_margarita
+    examples: |
+      - me das un margarita
+      - me sirves un margarita
+      - un margarita
+      - un margarita, por favor
+
+  - intent: ordenar_piña_colada
+    examples: |
+      - me das un piña colada
+      - me sirves un piña colada
+      - un piña colada
+      - un piña colada, por favor
+
+  - intent: ordenar_daiquiri
+    examples: |
+      - me das un daiquiri
+      - me sirves un daiquiri
+      - un daiquiri
+      - un daiquiri, por favor
+
+  - intent: ordenar_espresso_martini
+    examples: |
+      - me das un espresso martini
+      - me sirves un espresso martini
+      - un espresso martini
+      - un espresso martini, por favor
+
+  - intent: ordenar_mai tai
+    examples: |
+      - me das un mai tai
+      - me sirves un mai tai
+      - un mai tai
+      - un mai tai, por favor
+
+  - intent: ordenar_sex_on_the_beach
+    examples: |
+      - me das un sex on the beach
+      - me sirves un sex on the beach
+      - un sex on the beach
+      - un sex on the beach, por favor

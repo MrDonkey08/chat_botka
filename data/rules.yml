@@ -10,3 +10,43 @@ rules:
     steps:
       - intent: bot_challenge
       - action: utter_soy_robot
+
+  - rule: Mostrar menú si el usuario lo solicita
+    steps:
+      - intent: solicitar_menu
+      - action: utter_mostrar_menu
+
+  - rule: Mostrar receta de mojito
+    steps:
+      - intent: ordenar_mojito
+      - action: utter_mojito
+
+  - rule: Mostrar receta de michelada
+    steps:
+      - intent: ordenar_michelada
+      - action: utter_michelada
+
+  - rule: Mostrar receta de clamato
+    steps:
+      - intent: ordenar_clamato
+      - action: utter_clamato
+
+  - rule: Mostrar receta de margarita
+    steps:
+      - intent: ordenar_margarita
+      - action: utter_margarita
+
+  - rule: Mostrar receta de daiquiri
+    steps:
+      - intent: ordenar_daiquiri
+      - action: utter_daiquiri
+
+  - rule: Mostrar receta de espresso martini
+    steps:
+      - intent: ordenar_espresso_martini
+      - action: utter_espresso_martini
+
+  - rule: Mostrar receta de sex on the beach
+    steps:
+      - intent: ordenar_sex_on_the_beach
+      - action: utter_sex_on_the_beach

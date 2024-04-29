@@ -8,6 +8,16 @@ intents:
   - estado_feliz
   - estado_infeliz
   - bot_challenge
+  - solicitar_menu
+  - ordenar_mojito
+  - ordenar_michelada
+  - ordenar_clamato
+  - ordenar_margarita
+  - ordenar_piña_colada
+  - ordenar_daiquiri
+  - ordenar_espresso_martini
+  - ordenar_mai_tai
+  - ordenar_sex_on_the_beach
 
 responses:
   utter_saludar:
@@ -28,6 +38,91 @@ responses:
 
   utter_soy_robot:
     - text: "Soy un robot diseñado con Rasa."
+
+  utter_mostrar_menu:
+    - text: |
+        ********Menú********
+        - Mojito
+        - Michelada
+        - Clamato
+        - Margarita
+        - Piña Colada
+        - Daiquiri
+        - Espresso Martini
+        - Mai Tai
+        - Sex on the Beach
+
+  utter_mojito:
+    - text: |
+        Receta de Mojito
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_michelada:
+    - text: |
+        Receta de Michelada
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_clamato:
+    - text: |
+        Receta de Clamato
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_margarita:
+    - text: |
+        Receta de Margarita
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_piña_colada:
+    - text: |
+        Receta de Piña Colada
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_daiquiri:
+    - text: |
+        Receta de Daiquiri
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_espresso_martini:
+    - text: |
+        Receta de Espresso Martini
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_mai_tai:
+    - text: |
+        Receta de Mai Tai
+
+        Ingredientes:
+
+        Pasos:
+
+  utter_sex_on_the_beach:
+    - text: |
+        Receta de Sex on the Beach
+
+        Ingredientes:
+
+        Pasos:
 
 session_config:
   session_expiration_time: 60
