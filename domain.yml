@@ -2,6 +2,7 @@ version: "3.1"
 
 intents:
   - saludar
+  - preguntar_estado
   - despedir
   - afirmar
   - negar
@@ -22,6 +23,9 @@ intents:
 responses:
   utter_saludar:
     - text: "¡Hola! ¿Cómo estás?"
+
+  utter_preguntar_estado:
+    - text: "¡Hola! ¡Me encuentro excelente! ¿Deseas ordenar algo? Si gustas un menú, házmelo saber"
 
   utter_animar:
     - text: "Aquí hay algo que te puede hacer sentir mejor:"

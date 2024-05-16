@@ -27,3 +27,102 @@ stories:
       - action: utter_ayudó
       - intent: negar
       - action: utter_despedir
+
+  # Paths de pedidos
+  - story: Saludo (opcional) y pregunta de estado
+    steps:
+      - intent: preguntar_estado
+      - action: utter_preguntar_estado
+      - checkpoint: checkp_ordenar
+
+  - story: Mostrar receta de mojito
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_mojito
+      - action: utter_mojito
+
+  - story: Mostrar receta de michelada
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_michelada
+      - action: utter_michelada
+
+  - story: Mostrar receta de clamato
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_clamato
+      - action: utter_clamato
+
+  - story: Mostrar receta de margarita
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_margarita
+      - action: utter_margarita
+
+  - story: Mostrar receta de daiquiri
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_daiquiri
+      - action: utter_daiquiri
+
+  - story: Mostrar receta de espresso martini
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_espresso_martini
+      - action: utter_espresso_martini
+
+  - story: Mostrar receta de sex on the beach
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_sex_on_the_beach
+      - action: utter_sex_on_the_beach
+
+  # Mostar menú antes que recetas
+  - story: Mostrar menú si el usuario lo solicita
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: solicitar_menu
+      - action: utter_mostrar_menu
+      - checkpoint: checkp_menu
+
+  - story: Mostrar receta de mojito
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_mojito
+      - action: utter_mojito
+
+  - story: Mostrar receta de michelada
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_michelada
+      - action: utter_michelada
+
+  - story: Mostrar receta de clamato
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_clamato
+      - action: utter_clamato
+
+  - story: Mostrar receta de margarita
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_margarita
+      - action: utter_margarita
+
+  - story: Mostrar receta de daiquiri
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_daiquiri
+      - action: utter_daiquiri
+
+  - story: Mostrar receta de espresso martini
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_espresso_martini
+      - action: utter_espresso_martini
+
+  - story: Mostrar receta de sex on the beach
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_sex_on_the_beach
+      - action: utter_sex_on_the_beach

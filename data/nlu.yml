@@ -13,6 +13,23 @@ nlu:
       - buenas noches
       - bonita noche
 
+  - intent: preguntar_estado
+    examples: |
+      - como estas
+      - hola, como estas
+      - qué onda, como estas
+      - buen dia, como estas
+      - buenos días, como estas
+      - buenas tardes, como estas
+      - buenas noches, como estas
+      - como andas
+      - hola, como andas
+      - qué onda, como andas
+      - buen dia, como andas
+      - buenos días, como andas
+      - buenas tardes, como andas
+      - buenas noches, como andas
+
   - intent: despedir
     examples: |
       - adios
@@ -89,9 +106,13 @@ nlu:
       - que bebidas tiene
       - que bebidas maneja
       - tienes alguna carta
-      - tines algun menu
+      - tienes algun menu
       - me puedes dar una carta
       - me puedes dar un menu
+      - me das un carta
+      - me das un menu
+      - me muestras un menu
+      - me muestras una carta
 
   - intent: ordenar_mojito
     examples: |
