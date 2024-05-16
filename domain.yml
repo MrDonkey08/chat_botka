@@ -58,75 +58,190 @@ responses:
 
   utter_mojito:
     - text: |
-        Receta de Mojito
-
+        Mojito
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - Limón cortado en gajos 1/2 pieza
+          - Azúcar 2 cucharadas
+          - Menta fresca al gusto 8 hojas
+          - Ron blanco 2 oz
+          - Agua mineral cantidad suficiente
+          - Hielo
+          - Jugo de limón
+        ㅤ
+        Preparación:
+        ㅤ
+          - Empezaremos por exprimir el jugo de un limón, las hojas de menta y el azúcar en un vaso alto para triturarlos. Puedes poner dos gajos de limón para darle un sabor más fuerte.
+          - Llena el vaso con hielo y agrega el ron para revolver todo junto y rectifica el sabor del dulce.
+          - Llena el vaso con agua mineral, coloca una rodajita de limón para decorar y listo.
 
   utter_michelada:
     - text: |
-        Receta de Michelada
-
+        Michelada
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - Cerveza Lager
+          - Jugo de limón
+          - Sal una pizca más el escarchado de vaso
+          - Jugo Maggi opcional
+          - Salsa inglesa opcional
+          - Clamato opcional
+        ㅤ
+        Preparación:
+        ㅤ
+          - Escarcha con sal un vaso cervecero o tarro de preferencia que hayas mantenido en el congelador por al menos 2 horas.
+          - Exprime el jugo de 5 limones evitando dejar las semillas en el vaso.
+          - Agrega una pizca de sal.
+          - Vacía la cerveza lentamente para evitar que la espuma se derrame fuera del vaso.
 
   utter_clamato:
     - text: |
-        Receta de Clamato
-
+        Clamato
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - 1 taza de clamato
+          - 2 limones
+          - Salsa inglesa
+          - Salsa de soya
+          - Sal de grano
+          - Pimienta negra
+          - Chamoy
+          - Chile en polvo
+          - Hielos
+          - 2 ramas de apio
+          - cerveza
+        ㅤ
+        Preparación
+        ㅤ
+          - ESCARCHA un vaso con chamoy y chile en polvo.
+          - AGREGA hielos a un vaso alto.
+          - EXPRIME el jugo de limón.
+          - MEZCLA el clamato, el jugo de limón, agrega la salsa inglesa, la salsa de soya.
+          - AGREGA un poco de pimienta negra y una pizca de sal.
+          - RELLENA con el resto de la cerveza        ㅤ
+        ㅤ
+        Para decorar puedes agregar camarones, apio o unas rodajas de limón.
+         ㅤ
 
   utter_margarita:
     - text: |
-        Receta de Margarita
-
+        Margarita:
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - tequila 75 ml
+          - Triple seco 25 ml
+          - Zumo de lima 25 ml
+          - Hielo
+          - Sal
+        ㅤ
+        Preparación:
+        ㅤ
+          - En primer lugar, debemos preparar las copas en la que vamos a servir el cóctel. La Margarita es uno de esos combinados que cuenta con una copa que lleva su nombre, con la que nosotros tuvimos la suerte de contar, pero se puede preparar en copas de cóctel convencionales o en las típicas de champán ancho tan en desuso.
+          - Sea como fuere, debemos pasar la lima por el borde de la copa y colocar esta boca abajo en un plato con sal, para lograr el mítico borde salino que caracteriza al cóctel.
+          - Una vez tengamos las copas listas, con ayuda del vaso medidor vertemos en la coctelera el zumo de lima recién exprimido, el tequila, y el triple seco (en este orden, pues siempre los “diluyentes” se colocan antes).
+          - Después, añadimos cuatro o cinco cubos de hielo –preferiblemente industrial, para evitar malos aromas de la nevera–. Tapamos y agitamos la coctelera durante 15 segundos, sirviendo el cóctel con ayuda del filtro de la propia coctelera o el colador.
 
   utter_piña_colada:
     - text: |
-        Receta de Piña Colada
-
+        Piña Colada
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - 60 mililitros de crema de coco
+          - 120 mililitros de ron blanco
+          - 1 rodaja de piña natural gruesa
+          - 180 mililitros de zumo de piña
+          - 2 chorros de leche condensada
+          - 1 vaso de hielo picado
+        ㅤ
+        Preparación:
+        ㅤ
+          - Para aprender cómo hacer piña colada con alcohol, lo primero que debes hacer es cortar la piña. Elimina el corazón de la fruta, que es el círculo central más oscuro, y trocea el resto de la rodaja.
+          - Recuerda que para la mayoría de cócteles se usa como medida 1 chupito, que equivale a unos 30 mililitros. Teniendo esto en cuenta, lleva a la licuadora todos los ingredientes de la piña colada y bate a máxima potencia.
+          - Truco: puedes hacer la piña colada con Calahua o cualquier otra marca de crema de coco. Si no encuentras crema de coco, también puedes usar leche de coco.
+          - Prueba el resultado y corrige el dulzor del cóctel con la leche condensada o el nivel de alcohol y echa más ron si es necesario. Si prefieres, también puedes preparar piña colada con vodka. Usa la misma medida si te decantas por esta opción.
+          - Truco: si quieres que la piña colada tenga más sabor a coco puedes sustituir el ron blanco por Malibú o cualquier otro ron de coco.
+          - * Sirve el cóctel de piña colada en una copa y decóralo con fruta natural, con las hojas de la piña o con una cereza confitada o guinda si tienes a mano. También queda muy bien añadir un poco de grosella o granadina en las paredes del vaso y luego servir la bebida.
 
   utter_daiquiri:
     - text: |
-        Receta de Daiquiri
-
+        Daiquiri
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - Ron blanco50 ml
+          - Zumo de lima 25 ml
+          - Azúcar 1 cucharadita
+          - Hielo
+        ㅤ
+        Preparación:
+        ㅤ
+          - Con ayuda del vaso medidor vertemos en la coctelera una parte de zumo de lima recién exprimido, el azúcar y dos partes de ron blanco (en este orden, pues siempre los “diluyentes” se colocan antes).
+          - Después, añadimos cuatro o cinco cubos de hielo -preferiblemente industrial, para evitar malos aromas de la nevera–.
+          - Tapamos y agitamos la coctelera durante 15 segundos, sirviendo el cóctel con ayuda del filtro de la propia coctelera o el colador en un vaso de cóctel.
 
   utter_espresso_martini:
     - text: |
-        Receta de Espresso Martini
-
+        Espresso Martini
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - 45 ml. de Vodka
+          - 30 ml. de Café Espresso
+          - 20 ml. de Licor de Café
+          - Hielo
+        ㅤ
+        Preparación:
+        ㅤ
+          - Prepara un café espresso.
+          - Añade a la coctelera hielos, el Vodka, el café caliente y el licor de café y batir enérgicamente durante 30 segundos.
+          - Vierte el contenido en una copa de Martini.
+          - Decora con tres granos de café.
 
   utter_mai_tai:
     - text: |
-        Receta de Mai Tai
-
+        Mai Tai
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - 130 ml de ron.
+          - 70 ml de zumo de limón.
+          - 40 ml de licor curaçao.
+          - 30 ml de licor Amaretto.
+          - 125 ml de zumo de piña.
+          - Hielo picado.
+          - Trozos de piña natural.
+          - Guindas o cerezas marrasquinas.
+        ㅤ
+        Preparación:
+        ㅤ
+          - Tiempo total 7 m
+          - Elaboración 7 m
+          - En primer lugar, en una coctelera se introducen todos los ingredientes, excepto el hielo. Se agita durante unos dos minutos, para que se integren y se mezclen bien los sabores. A continuación, en una copa o vaso ancho, añade un par de cucharadas de hielo picado.
+          - Utilizando el colador de la coctelera, vierte el contenido sobre el hielo picado. El colador sirve para que no se cuelen trocitos de pulpa de fruta si has utilizado zumo de piña natural. Una vez vertido sobre hielo, remueve con una cuchara para que se refresque todo y decora con un trocito de piña natural o una cereza.
 
   utter_sex_on_the_beach:
     - text: |
-        Receta de Sex on the Beach
-
+        ¡Ay, amigo! Primero un cafecito
+        ㅤ
+        Sex on the Beach
+        ㅤ
         Ingredientes:
-
-        Pasos:
+        ㅤ
+          - Vodka 45 ml
+          - Licor de melocotón 15 ml
+          - Licor de frambuesa (opcional)15 ml
+          - Zumo de arándanos rojos 45 ml
+          - Zumo de naranja 45 ml
+          - Naranja fresca para decorar
+        ㅤ
+        Preparación:
+        ㅤ
+        La Preparación de este cóctel es de lo más sencillo. Simplemente se llena un vaso de tubo con cubitos de hielo, se añaden todos los ingredientes y se remueve para mezclar bien. Se termina el cóctel con naranja fresca, ya sea en gajo, disco o, si lo queremos hacer más sofisticado, twist.
 
 session_config:
   session_expiration_time: 60

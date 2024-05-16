@@ -113,6 +113,8 @@ nlu:
       - me das un menu
       - me muestras un menu
       - me muestras una carta
+      - un menu
+      - una carta
 
   - intent: ordenar_mojito
     examples: |
@@ -163,7 +165,7 @@ nlu:
       - un espresso martini
       - un espresso martini, por favor
 
-  - intent: ordenar_mai tai
+  - intent: ordenar_mai_tai
     examples: |
       - me das un mai tai
       - me sirves un mai tai
