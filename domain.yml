@@ -124,7 +124,7 @@ responses:
           - RELLENA con el resto de la cerveza        ㅤ
         ㅤ
         Para decorar puedes agregar camarones, apio o unas rodajas de limón.
-         ㅤ
+         ㅤㅤ
 
   utter_margarita:
     - text: |
@@ -219,8 +219,6 @@ responses:
         ㅤ
         Preparación:
         ㅤ
-          - Tiempo total 7 m
-          - Elaboración 7 m
           - En primer lugar, en una coctelera se introducen todos los ingredientes, excepto el hielo. Se agita durante unos dos minutos, para que se integren y se mezclen bien los sabores. A continuación, en una copa o vaso ancho, añade un par de cucharadas de hielo picado.
           - Utilizando el colador de la coctelera, vierte el contenido sobre el hielo picado. El colador sirve para que no se cuelen trocitos de pulpa de fruta si has utilizado zumo de piña natural. Una vez vertido sobre hielo, remueve con una cuchara para que se refresque todo y decora con un trocito de piña natural o una cereza.
 
@@ -241,7 +239,7 @@ responses:
         ㅤ
         Preparación:
         ㅤ
-        La Preparación de este cóctel es de lo más sencillo. Simplemente se llena un vaso de tubo con cubitos de hielo, se añaden todos los ingredientes y se remueve para mezclar bien. Se termina el cóctel con naranja fresca, ya sea en gajo, disco o, si lo queremos hacer más sofisticado, twist.
+          La Preparación de este cóctel es de lo más sencillo. Simplemente se llena un vaso de tubo con cubitos de hielo, se añaden todos los ingredientes y se remueve para mezclar bien. Se termina el cóctel con naranja fresca, ya sea en gajo, disco o, si lo queremos hacer más sofisticado, twist.
 
 session_config:
   session_expiration_time: 60

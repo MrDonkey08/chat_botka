@@ -36,6 +36,11 @@ rules:
       - intent: ordenar_margarita
       - action: utter_margarita
 
+  - rule: Mostrar receta de piña colada
+    steps:
+      - intent: ordenar_piña_colada
+      - action: utter_piña_colada
+
   - rule: Mostrar receta de daiquiri
     steps:
       - intent: ordenar_daiquiri
@@ -45,6 +50,11 @@ rules:
     steps:
       - intent: ordenar_espresso_martini
       - action: utter_espresso_martini
+
+  - rule: Mostrar receta de mai tai
+    steps:
+      - intent: ordenar_mai_tai
+      - action: utter_mai_tai
 
   - rule: Mostrar receta de sex on the beach
     steps:

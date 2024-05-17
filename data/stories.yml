@@ -65,11 +65,23 @@ stories:
       - intent: ordenar_daiquiri
       - action: utter_daiquiri
 
+  - story: Mostrar receta de piña colada
+    steps:
+      - checkpoint: checkp_ordenar
+      - intent: ordenar_piña_colada
+      - action: utter_piña_colada
+
   - story: Mostrar receta de espresso martini
     steps:
       - checkpoint: checkp_ordenar
       - intent: ordenar_espresso_martini
       - action: utter_espresso_martini
+
+  - story: Mostrar receta de mai tai
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_mai_tai
+      - action: utter_mai_tai
 
   - story: Mostrar receta de sex on the beach
     steps:
@@ -109,6 +121,12 @@ stories:
       - intent: ordenar_margarita
       - action: utter_margarita
 
+  - story: Mostrar receta de piña colada
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_piña_colada
+      - action: utter_piña_colada
+
   - story: Mostrar receta de daiquiri
     steps:
       - checkpoint: checkp_menu
@@ -120,6 +138,12 @@ stories:
       - checkpoint: checkp_menu
       - intent: ordenar_espresso_martini
       - action: utter_espresso_martini
+
+  - story: Mostrar receta de mai tai
+    steps:
+      - checkpoint: checkp_menu
+      - intent: ordenar_mai_tai
+      - action: utter_mai_tai
 
   - story: Mostrar receta de sex on the beach
     steps:
